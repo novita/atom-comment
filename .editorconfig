@@ -1,0 +1,26 @@
+# この記述をすることで、フォルダ以下のディレクトリのみにルールが適用される
+root = true
+
+# すべてのファイルに適用する
+[*]
+# 改行コード
+end_of_line = lf
+# 文字コード
+charset = utf-8
+# インデント形式 tab, space
+indent_style = space
+# インデントサイズ
+indent_size = 2
+# 行末の空白文字をトリム
+trim_trailing_whitespace = true
+# 最終行に改行を付与
+insert_final_newline = true
+
+# マークダウン
+[*.md]
+# インデント形式 tab, space
+indent_style = space
+# インデントサイズ
+indent_size = 4
+# 行末の空白文字をトリム
+trim_trailing_whitespace = false

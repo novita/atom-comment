@@ -1,0 +1,36 @@
+{
+  "name": "atom-comment",
+  "main": "./lib/atom-comment",
+  "version": "0.4.0",
+  "description": "Toggle block comments like in Sublime Text.",
+  "keywords": [
+    "block",
+    "comment",
+    "block-comment",
+    "sublime",
+    "text",
+    "sublime-text"
+  ],
+  "activationCommands": {
+    "atom-text-editor:not([mini])": [
+      "atom-comment:toggle"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novita/atom-comment.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "core-js": "^1.2.0"
+  },
+  "readme": "# Sublime Block Comments for Atom\n\nAn Atom Editor plugin for toggling block comments, inspired by Sublime Text.\n\n# Install\n\n```\napm install sublime-block-comment\n```\n\nOr look for `sublime-block-comment` in your Atom settings' Install tab. :smiley:\n\n# Features\n\n- Select code and hit the keybinding to place a block comment around it.\n- Place the cursor anywhere inside a block comment and hit the keybinding to uncomment it.\n- Hit the keybinding with an empty selection to create an empty block comment, ready to type.\n- Optionally pad the selection with whitespace when commenting (you can enable this in the package settings).\n- Supports multiple cursors.\n\n# Keymap\n\n- `Ctrl-?` (`Ctrl-Shift-;` for ABNT2 keyboards on Windows/Linux): Toggle block comments.\n\n# Contributing\n\nContributions are very welcome!\n\nPlease report any issue you find, and feel free to send pull requests to add support for more languages. :smiley:\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/novita/atom-comment/issues"
+  },
+  "homepage": "https://github.com/novita/atom-comment#readme"
+}
